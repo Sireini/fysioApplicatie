@@ -45,7 +45,7 @@ var app = {
 
  $(".test").click(function(){
     $.ajax({
-        url:     "http://sylvanreinieren.com/dummy/get_info.php",
+        url:     "http://sylvanreinieren.com/fysioWebapp/php/get_schema.php",
         type:    "GET",
         success: function(data) {
             /* ...use the data to fill in some HTML elements... */
